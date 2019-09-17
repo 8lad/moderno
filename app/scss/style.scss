@@ -1,0 +1,29 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+.box {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.test {
+    margin: 0 auto;
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+    border: 5px dotted #215634;
+    display: flex;
+}
+
+body {
+    background-color: #000;
+}
