@@ -123,6 +123,16 @@
 }
 
 @media(max-width: 960px) {
+    .settings__line {
+        display: block;
+        label {
+            display: block;
+            margin-bottom: 15px;
+        }
+        input {
+            min-width: 100%;
+        }
+    }
     .page-404__404::after {
         width: 50px;
         height: 97px;
@@ -131,6 +141,9 @@
 }
 
 @media(max-width: 900px) {
+    .slick-slide {
+        margin: 0 15px;
+    }
     .advantages__inner {
         display: block;
     }
@@ -513,6 +526,9 @@
 }
 
 @media(max-width: 495px) {
+    .product__item-img {
+        min-height: 170px;
+    }
     .user__info {
         display: none;
     }
